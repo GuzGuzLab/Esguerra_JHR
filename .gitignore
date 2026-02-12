@@ -1,0 +1,20 @@
+# --- SEGURIDAD CRÍTICA (Bloquea la clave) ---
+.env
+.env.local
+
+# --- BASURA DE PYTHON
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# --- DATOS SENSIBLES
+Invoices/
+Data/
+Output/
+*.pdf
+*.xlsx
+
+# --- SISTEMA OPERATIVO
+.DS_Store
+Thumbs.db
